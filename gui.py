@@ -80,7 +80,7 @@ def run_gui():
 
     frame_cheat_group = tk.Frame(root)
     frame_cheat_group.pack(pady=10)
-    tk.Label(frame_cheat_group, text="ㅁ명령어 그룹명").grid(row=0, column=0, padx=5)
+    tk.Label(frame_cheat_group, text="명령어 그룹명").grid(row=0, column=0, padx=5)
     cheat_group_entry = tk.Entry(frame_cheat_group, width=20)
     cheat_group_entry.grid(row=0, column=1)
 
