@@ -51,7 +51,11 @@ Autobalance
 |ocr_utils.py|OCR 모듈 설정 함수|
 |사전 설치.bat|설치 자동화용 배치 파일 ( 폴더에 tesseract_installer.exe 파일이 있어야 함 )|
 
-## 5. 실행 결과
+**※ 사전 설치 파일의 경우 Github 에서 받을 경우 UTF 및 한글 깨짐 현상이 있을 수 있으므로 [Tesseract 공식 Github 페이지](https://github.com/UB-Mannheim/tesseract/wiki)에서 다운 받는것이 좋습니다.**
+
+## 5. 자동화 실행 결과
+
+* **실행 흐름 요약**
 
 1. **GUI 실행 시작** : main.py에서 사용자 입력을 받고, 설정된 옵션을 기반으로 start_automation(...) 함수 호출
 2. **초기 경험치/OCR 준비** : ocr_utils.py가 게임 화면을 캡처 (경험치, 능력치 등 디버그용) 하고, Tesseract OCR로 초기 경험치 수치를 인식 및 저장
@@ -59,9 +63,13 @@ Autobalance
    * 사냥 시간 동안 상태 모니터링 후 종료 시점 10초 전 팝업 알림 출력
 4. **사냥 종료 및 결과 측정** : 다시 ocr_utils.py로 종료 시점의 최종 경험치 추출 → 시작 경험치와 비교해 획득량 계산 → 드랍률 확인을 위한 쿼리 함수 생성
 
+* **실행 결과 콘솔 캡쳐**
 
+|내용|사진|
+|-----|-----|
+|시작 GUI 사진|<img width="478" height="528" alt="image" src="https://github.com/user-attachments/assets/c97fb1fd-4154-45a6-bde1-6a286ac582cf" />|
+|결과 엑셀 파일 내용|<img width="734" height="77" alt="image" src="https://github.com/user-attachments/assets/43fc1daf-674d-4d88-92b9-7ddaf87dba7d" />|
 
-<img width="734" height="77" alt="image" src="https://github.com/user-attachments/assets/43fc1daf-674d-4d88-92b9-7ddaf87dba7d" />
 
 
 
