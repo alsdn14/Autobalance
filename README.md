@@ -53,7 +53,7 @@ Autobalance
 
 **※ 사전 설치 파일의 경우 Github 에서 받을 경우 UTF 및 한글 깨짐 현상이 있을 수 있으므로 [Tesseract 공식 Github 페이지](https://github.com/UB-Mannheim/tesseract/wiki)에서 다운 받는것이 좋습니다.**
 
-## 5. 자동화 실행 결과
+## 5. 자동화 실행 흐름 & 결과
 
 * **실행 흐름 요약**
 
