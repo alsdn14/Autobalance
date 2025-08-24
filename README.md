@@ -62,14 +62,15 @@ Autobalance
 3. **자동 사냥 시작** : auto_hunter.py가 자동 사냥 진행 → 마우스 클릭 및 키보드 입력 자동화로 캐릭터 움직임 제어
    * 사냥 시간 동안 상태 모니터링 후 종료 시점 10초 전 팝업 알림 출력
 4. **사냥 종료 및 결과 측정** : 다시 ocr_utils.py로 종료 시점의 최종 경험치 추출 → 시작 경험치와 비교해 획득량 계산 → 드랍률 확인을 위한 쿼리 함수 생성
-
+  
+  
 * **실행 결과 콘솔 캡쳐**
-
+  
 |내용|사진|
 |-----|-----|
 |시작 GUI 사진|<img width="478" height="528" alt="image" src="https://github.com/user-attachments/assets/c97fb1fd-4154-45a6-bde1-6a286ac582cf" />|
 |결과 엑셀 파일 내용|<img width="734" height="77" alt="image" src="https://github.com/user-attachments/assets/43fc1daf-674d-4d88-92b9-7ddaf87dba7d" />|
-
+  
 
 
 
